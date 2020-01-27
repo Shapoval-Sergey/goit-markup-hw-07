@@ -123,6 +123,30 @@ p {
   height: 28px;
 }
 
+.list-partners {
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+
+.list-partners:hover .tv,
+.list-partners:focus .tv {
+  transform: scale(1.05);
+}
+
+.list-partners:hover .food,
+.list-partners:focus .food {
+  transform: scale(1.05);
+}
+
+.list-partners:hover .chemical,
+.list-partners:focus .chemical {
+  transform: scale(1.05);
+}
+.list-partners:hover .telegram,
+.list-partners:focus .telegram {
+  transform: scale(1.05);
+}
+
 .tv {
   background-color: #ff4e50;
   padding-top: 5px;
@@ -132,6 +156,47 @@ p {
   border: 3px solid white;
   border-radius: 38px;
   position: absolute;
+  right: 50px;
+  bottom: 120px;
+}
+
+.food {
+  background-color: #1fd7ae;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid white;
+  border-radius: 38px;
+  position: absolute;
+  right: 50px;
+  bottom: 120px;
+}
+
+.chemical {
+  background-color: #ffa507;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid white;
+  border-radius: 38px;
+  position: absolute;
+  right: 50px;
+  bottom: 120px;
+}
+
+.telegram {
+  background-color: #4e73db;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 3px solid white;
+  border-radius: 38px;
+  position: absolute;
+  right: 50px;
+  bottom: 120px;
 }
 
 .name-list-partners {
@@ -170,6 +235,8 @@ p {
     background-position: center;
     padding-bottom: 138px;
     margin-bottom: 70px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .authorization {
@@ -307,6 +374,8 @@ p {
     padding-bottom: 234px;
     margin-bottom: 70px;
     max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .top-header {
