@@ -84,6 +84,7 @@ p {
   display: inline-block;
   width: 90px;
   height: 36px;
+  border: 2px solid transparent;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -92,7 +93,7 @@ p {
   display: inline-block;
   width: 90px;
   height: 36px;
-
+  border: 2px solid transparent;
   padding-top: 8px;
   padding-bottom: 8px;
 }
@@ -127,8 +128,9 @@ p {
 }
 
 .list-partners-icon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  fill: #ffffff;
 }
 
 .list-partners {
@@ -145,22 +147,8 @@ p {
   margin-right: auto;
 }
 
-.list-partners:hover .tv,
-.list-partners:focus .tv {
-  transform: scale(1.05);
-}
-
-.list-partners:hover .food,
-.list-partners:focus .food {
-  transform: scale(1.05);
-}
-
-.list-partners:hover .chemical,
-.list-partners:focus .chemical {
-  transform: scale(1.05);
-}
-.list-partners:hover .telegram,
-.list-partners:focus .telegram {
+.list-partners:hover .list-partners-icon,
+.list-partners:focus .list-partners-icon {
   transform: scale(1.05);
 }
 
